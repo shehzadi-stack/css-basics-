@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakery Website</title>
+  <link rel="stylesheet" href="">
+  <style>
+    /* Reset some default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+  background: rgba(0, 0, 0, 0.7);
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+}
+.navbar li {
+  margin: 0 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.logo img {
+  width: 120px;
+}
+
+/* Hero section (background image) */
+.hero {
+  background: url('pics/g1.jpg') no-repeat center center/cover;
+  height: 200px;
+}
+
+/* Products Section */
+.products {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, lightgreen, lightblue, lightpink);
+}
+.products h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.products p {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+/* Product List */
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(to right, green, lightblue, pink, red);
+}
+
+.product {
+  text-align: center;
+}
+.product img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.product h3 {
+  margin-top: 10px;
+}
+.product p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+.product button {
+  padding: 8px 15px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.product button:hover {
+  background: darkgreen;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 5px;
+  background: linear-gradient(to right, green, lightgreen, blue);
+  color: black;
+  font-weight: bold;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="logo"><img src="pics\blogo.jpeg" alt="Bakery Logo"></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Sign up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section Background -->
+  <section class="hero"></section>
+
+  <!-- Bakery Products Section -->
+  <section class="products">
+    <h2>Our Bakery Products</h2>
+    <p>Delicious Food just like home food</p>
+  </section>
+     <br>
+  <!-- Product Cards -->
+  <section class="product-list">
+    <div class="product">
+      <img src="pics\donuts-7547393_1280.jpg" alt="Bread">
+      <h3>Bread</h3>
+      <p>₹ 20/-</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="pics\muffin-8139065_1280.jpg" alt="Cake">
+      <h3>Cake</h3>
+      <p>₹ 500/-</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="pics\macaroon-886562_1280.jpg" alt="Apple Cake">
+      <h3>Apple Cake</h3>
+      <p>₹ 700/-</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="pics\baker-1194428_1280.jpg" alt="Strawberry Cake">
+      <h3>Strawberry Cake</h3>
+      <p>₹ 1500/-</p>
+      <button>Buy Now</button>
+    </div>
+  </section>
+     <br>
+  <!-- Footer -->
+  <footer>
+    <p>© copyright @ 2023 online bakery shop</p>
+  </footer>
+  <br>
+</body>
+</html>

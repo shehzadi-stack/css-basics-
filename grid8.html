@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #aaffaa;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 106, 106, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Lines</h1>
+
+<div class="grid-container">
+  <div class="item1">a</div>
+  <div class="item2">b</div>
+  <div class="item3">c</div>  
+  <div class="item4">d</div>
+  <div class="item5">e</div>
+  <div class="item6">f</div>
+  <div class="item7">g</div>
+  <div class="item8">h</div>
+  <div class="item9">i</div> 
+  <div class="item10">j</div>
+</div>
+
+<p>You can refer to line numbers when placing grid items.</p>
+
+</body>
+</html>

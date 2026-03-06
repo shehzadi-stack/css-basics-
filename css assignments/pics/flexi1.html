@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training Institute</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+.logo img {
+  width: 40px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar .btn {
+  padding: 8px 15px;
+  background: #00bfff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.navbar .btn:hover {
+  background: #0099cc;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero.jpg') no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: left;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4); /* dark overlay */
+}
+.hero-text {
+  position: relative;
+  max-width: 800px;
+  z-index: 1;
+}
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.hero-text p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+.hero-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero-btn:hover {
+  background: white;
+  color: black;
+}
+
+/* Why Choose Section */
+.why {
+  padding: 40px 80px;
+  text-align: center;
+}
+.why h3 {
+  font-style: italic;
+  color: gray;
+  margin-bottom: 10px;
+}
+.why h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.why p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+</style>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="Institute Logo">
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Students</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <a href="#" class="btn">GET STARTED</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>A NEXT GENERATION<br> TRAINING INSTITUTE</h1>
+      <p>We Are The Team Of Talented Trainers, We Help You To Achieve The Best Skills For Your Present And Future Career</p>
+      <a href="#" class="hero-btn">GET STARTED</a>
+    </div>
+  </section>
+
+  <!-- Why Choose Section -->
+  <section class="why">
+    <h3>WHY....................</h3>
+    <h1>WHY CHOOSE || CREATE?</h1>
+    <p>"CREATE" is a software training and placement organization based in Dharwad. With highly experienced faculty and a culture of excellence, we...</p>
+  </section>
+
+</body>
+</html>

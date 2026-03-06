@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regform_CSS</title>
+    <style>
+      input[type="text"],
+      input[type="number"],
+      input[type="password"],
+      input[type="date"],
+      input[type="email"],
+      textarea,
+      select {
+        background-color: burlywood;
+        color: darkblue;
+        width: 200px;
+        padding: 5px;
+        border-radius: 2px;
+        border: 2px solid rgb(35, 190, 21);
+      }
+
+      button {
+        background-color: rgb(129, 13, 106);
+        color: rgb(232, 232, 237);
+        width: 200px;
+        padding: 5px;
+        border-radius: 2px;
+        border: 2px solid rgb(35, 190, 21);
+      }
+
+      button:hover {
+        background-color: dodgerblue;
+        border: 2px solid;
+        color: crimson;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table align="center">
+      <tr>
+        <td>firstName</td>
+        <td><input type="text" name="Name" /></td>
+      </tr>
+      <tr>
+        <td>LastName</td>
+        <td><input type="text" name="Name" /></td>
+      </tr>
+      <tr>
+        <td>password</td>
+        <td><input type="password" name="password" /></td>
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td><input type="Date" name="Date" /></td>
+      </tr>
+      <tr>
+        <td>mobile number</td>
+        <td><input type="number" name="number" /></td>
+      </tr>
+
+      <tr>
+        <td>city</td>
+        <td>
+          <select name="city">
+            <option value="bangalore">bangalore</option>
+            <option value="Goa">Goa</option>
+            <option value="belgaum">belgaum</option>
+            <option value="pune">pune</option>
+            <option value="bijapur">bijapur</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>email</td>
+        <td><input type="email" name="email" /></td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td><textarea name="Address"></textarea></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td><button>submit</button></td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+         }
+
+        .header {
+            height:100px;
+            width: 100%;
+            background-image: linear-gradient(to right,rgb(209, 73, 39),rgb(239, 239, 64),rgb(253, 28, 28));
+        }
+        .header h1{
+            float: left;
+            width: 60%;
+            margin-left:90px;
+            padding: 30px;
+            font-weight: 400px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #090909;  
+        }
+        .header ul li{
+             float: left;
+             margin-left:10px;
+             list-style: none;
+             border: 2px solid blue;
+             color: aliceblue;
+             background-color: blue;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow',    
+                           Arial, sans-serif;
+        }
+        ul{
+           padding-top: 40px;
+        }
+   
+        
+
+        .left{
+            height:400px;
+            width:20%;
+            background-image: linear-gradient(to right,rgb(83, 228, 230),white,rgb(69, 206, 219));
+            float: right;
+          
+        }
+        .left h1 {
+             text-align:center;
+             font-weight: bold;
+             text-decoration: underline;
+        }
+
+        .left p {
+            font-size: medium;
+            text-align:center;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+
+        .right {
+            height:400px;
+            width: 20%;  
+            background-image: linear-gradient(to right,rgb(83, 228, 230),white,rgb(69, 206, 219));
+            float: right; 
+            text-align: center;
+            font-weight: bold;
+            color: blue;
+        }
+        .right h1{
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .main{
+            height:400px;
+            width:60%;
+            background-image: linear-gradient(rgb(237, 5, 191),
+            rgb(196, 173, 194),rgb(119, 46, 96));
+            float: right;   
+        }
+        .main h1{
+            text-align:center;
+            color: orange;
+            font-size:20px;
+            font-family: 'Times New Roman', Times, serif;
+        }     
+        .main img{
+            height:140px;
+            width: 140px;
+            float: left;
+            margin: 20px;
+        }
+         .submain
+         {
+            width:710px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+            color: aliceblue;
+            text-align: justify;
+            height: 100px;
+         }
+        main iframe{
+            margin-left: 100px;    
+        }
+
+        .footer{
+            height:100px;
+            width: 100%;
+            background-image: linear-gradient(to right,rgb(201, 81, 71),rgb(129, 199, 239),rgb(221, 197, 16));
+            float: left;
+            color: aliceblue;
+            text-align: center;
+            line-height: 100px;
+        }

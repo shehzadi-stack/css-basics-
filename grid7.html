@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container >div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border: 1px solid;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 200px;
+  background-size: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2016/06/22/11/10/box-1472804_1280.png);
+} 
+ .item2 {
+  grid-column-start: 1;
+  background-color: blue;
+  color: white;
+  grid-column-end: 4 ;
+  height: 100px;
+
+}
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 300px;
+} 
+
+.item10 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+} 
+
+.flex-item
+{
+  background-color:white;
+  width: 200px;
+  height: 200px;
+
+}
+
+.flex-container
+{
+  display: flex;
+  background-color: blue;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Grid Lines</h1>
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">b</div> 
+  <div class="item3">
+    <div class="flex-container">
+      <div class="flex-item">item1</div>
+       <div class="flex-item">item2</div>
+        <div class="flex-item">item3</div>
+    </div>
+  </div>  
+  <div class="item4">d</div>
+  <div class="item5">e</div>
+  <div class="item6">f</div>
+  <div class="item7">g</div>
+  <div class="item8">h</div>
+  <div class="item9">i</div> 
+  <div class="item10">Footer</div>
+</div>
+
+<p>You can refer to line numbers when placing grid items.</p>
+
+</body>
+</html>

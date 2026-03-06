@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontawsome</title>
+</head>
+<style>
+    
+    /* p::first-letter{
+        color: red;} */
+
+    /* div p::first-line{
+         color: rgb(172, 201, 3);}  */
+
+        /* ul li::marker {
+        color: rgb(219, 5, 5);
+        font-size: 23px; */
+
+        /* p::selection {
+        color: red;
+        background: yellow;
+        }------------changes the blue default selection to yellow */
+
+        p::after {------pending
+        content: url(smiley.gif);
+        }
+        p::before {
+        content: url(smiley.gif);
+        }
+
+</style>
+<body>
+    <div>
+        <p>This is only for first-line example
+            Lorem ipsum
+            <br> 
+            dolor sit amet consectetur adipisicing elit. Aperiam enim quam nisi vel, quas et culpa. Inventore, similique. Fuga, aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptate porro minima asperiores voluptatibus quam voluptatem vitae vel itaque esse.</p>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> 
+        <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+    </div>
+
+    <ul>
+    <li>----only for ul and li use marker element---</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li></ul>
+</body>
+</html>

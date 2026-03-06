@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-Class Demo</title>
+  <link rel="stylesheet" href="">
+  <style>
+    /* 1. Hover -----git*/
+     a:hover {
+     color: red;
+    }
+     /* 3. Active ----git*/
+     button:active {
+     background: yellow;
+     }
+    
+    /* 5. Focus -----git*/
+    input:focus {
+    border: 2px solid green;
+    outline: none;
+     }
+
+    /* 2. Visited */
+     a:visited {
+     color: purple;
+     }   
+
+    /* 4. Disabled */
+     button:disabled {
+     background: gray;
+     color: white;
+     }
+    
+    /* 6. Checked */
+    input:checked {
+    outline: 2px solid red;
+    } 
+
+    /* 7. First Child -----git*/
+    p:first-child {
+    font-weight: bold;
+    color: blue;
+    }
+
+   /* 8. Last Child-----git */
+     p:last-child {
+    color: green;
+    }
+
+    /* 9. nth-child */
+    li:nth-child(2) {
+    color: orange;
+    }    
+  </style>
+</head>
+
+<body>
+  <h2>Links</h2>
+  <a href="#">Normal Link</a>
+  <a href="#">Visited Link</a>
+
+  <h2>Button</h2>
+  <button>Click Me</button>
+  <button disabled>Disabled Button</button>
+
+  <h2>Input</h2>
+  <input type="text" placeholder="Focus on me">
+  <br><br>
+  <input type="checkbox"> Check me
+
+  <h2>List Example</h2>
+  <ul>
+    <li>First Item</li>
+    <li>Second Item</li>
+    <li>Third Item</li>
+    <li>Fourth Item</li>
+  </ul>
+
+  <div>
+    <p>First Paragraph</p>
+    <p>Middle Paragraph</p>
+    <p>Last Paragraph</p>
+  </div>
